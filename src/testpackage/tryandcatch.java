@@ -8,7 +8,7 @@ public class tryandcatch {
 			System.out.println(numbers[67]);
 		}
 		catch(Exception e) {
-			System.out.println("someting worng :" + e);
+			System.out.println("someting worng :" + e.getMessage());
 		}
 		finally {
 			System.out.println("this code will exeution after try and catch block of code");
